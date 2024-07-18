@@ -24,7 +24,9 @@ const Header = () => {
           <Button onClick={() => navigate("/auth")}>Login</Button>
         ) : (
           <DropdownMenu>
-            <DropdownMenuTrigger>Open</DropdownMenuTrigger>
+            <DropdownMenuTrigger>
+                
+            </DropdownMenuTrigger>
             <DropdownMenuContent>
               <DropdownMenuLabel>My Account</DropdownMenuLabel>
               <DropdownMenuSeparator />
